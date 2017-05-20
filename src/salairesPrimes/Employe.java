@@ -8,6 +8,12 @@ abstract class Employe {
 	//protected date;
 	
  //constructeur
+	public Employe(){
+		nom ="";
+		prenom ="";
+		age = 0;
+	}
+	
 	public Employe(String nom, String prenom, int age){
 		this.nom= nom;
 		this.prenom = prenom;
